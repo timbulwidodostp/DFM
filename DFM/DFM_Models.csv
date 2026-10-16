@@ -1,0 +1,102 @@
+;series;label;code;freq;log_trans;small;medium;large
+1;ip_total;IP-Total Industry - Working Day and Seasonally Adjusted;sts.m.i5.Y.PROD.NS0010.4.000;M;TRUE;FALSE;FALSE;TRUE
+2;ip_tot_cstr;IP-Total Industry (Excluding Construction) - Working Day and Seasonally Adjusted;sts.m.i5.Y.PROD.NS0020.4.000;M;TRUE;TRUE;TRUE;TRUE
+3;ip_tot_cstr_en;IP-Total Industry Excluding Construction and MIG Energy - Working Day and Seasonally Adjusted;sts.m.i5.Y.PROD.NS0021.4.000;M;TRUE;FALSE;FALSE;TRUE
+4;ip_constr;IP-Construction - Working Day and Seasonally Adjusted;STS.M.I5.Y.PROD.2F0000.4.000;M;TRUE;FALSE;TRUE;TRUE
+5;ip_im_goods;IP-MIG Intermediate Goods Industry - Working Day and Seasonally Adjusted;STS.M.I5.Y.PROD.NS0040.4.000;M;TRUE;FALSE;TRUE;TRUE
+6;ip_capital;IP-MIG Capital Goods Industry - Working Day and Seasonally Adjusted;STS.M.I5.Y.PROD.NS0050.4.000;M;TRUE;FALSE;TRUE;TRUE
+7;ip_d_cstr;IP-MIG Durable Consumer Goods Industry - Working Day and Seasonally Adjusted;STS.M.I5.Y.PROD.NS0060.4.000;M;TRUE;FALSE;TRUE;TRUE
+8;ip_nd_cons;IP-MIG Non-Durable Consumer Goods Industry - Working Day and Seasonally Adjusted;STS.M.I5.Y.PROD.NS0070.4.000;M;TRUE;FALSE;TRUE;TRUE
+9;ip_en;"IP - MIG Energy; Eurostat";STS.M.I5.Y.PROD.NS0090.4.000;M;TRUE;FALSE;TRUE;TRUE
+10;ip_en_2;IP-Energy Excluding NACE Rev.1 Section E - Working Day and Seasonally Adjusted;STS.M.I5.Y.PROD.NS0091.4.000;M;TRUE;FALSE;FALSE;TRUE
+11;ip_manuf;IP-Manufacturing - Working Day and Seasonally Adjusted;STS.M.I5.Y.PROD.2C0000.4.000;M;TRUE;FALSE;FALSE;TRUE
+12;ip_metals;IP-Manufacture of Basic Metals - Working Day and Seasonally Adjusted;sts.m.I5.Y.PROD.2C2400.4.000;M;TRUE;FALSE;FALSE;TRUE
+13;ip_chemicals;IP-Manufacture of Chemicals and Chemical Products - Working Day and Seasonally Adjusted;sts.m.I5.Y.PROD.2C2000.4.000;M;TRUE;FALSE;FALSE;TRUE
+14;ip_electric;IP-Manufacture of Electrical Machinery and Apparatus N.e.c. - Working Day and Seasonally Adjusted;sts.m.I5.Y.PROD.2C2700.4.000;M;TRUE;FALSE;FALSE;TRUE
+15;ip_machinery;IP-Manufacture of Machinery and Equipment N.e.c. - Working Day and Seasonally Adjusted;sts.m.I5.Y.PROD.2C2800.4.000;M;TRUE;FALSE;FALSE;TRUE
+16;ip_paper;IP-Manufacture of Pulp, Paper and Paper Products - Working Day and Seasonally Adjusted;sts.m.I5.Y.PROD.2C1700.4.000;M;TRUE;FALSE;FALSE;TRUE
+17;ip_plastic;IP-Manufacture of Rubber and Plastic Products - Working Day and Seasonally Adjusted;sts.m.I5.Y.PROD.2C2200.4.000;M;TRUE;FALSE;FALSE;TRUE
+18;new_cars;New Passenger Car - Working Day and Seasonally Adjusted;sts.m.i5.Y.CREG.PC0000.3.ABS;M;TRUE;TRUE;TRUE;TRUE
+19;orders;New Orders, Total, MANUFACTURING, for NEW ORDERS;STS.M.I5.Y.ORDT.NSC002.4.000;M;TRUE;TRUE;TRUE;TRUE
+20;ret_turnover_defl;"Total Turnover Index, Deflated, Retail Trade Excluding Fuel, Except of Motor Vehicles and Motorcycles - NACE Rev2; Eurostat; Working Day and Seasonally Adjusted";STS.M.I5.Y.TOVV.NS4701.4.000;M;TRUE;TRUE;TRUE;TRUE
+21;ecs_ec_sent_ind;Economic Sentiment Indicator;SUR.M.i5.S.ECFIN.ESI000.TT;M;FALSE;TRUE;TRUE;TRUE
+22;ecs_ind_conf;Industrial Confidence Indicator;SUR.M.i5.S.ECFIN.MAN099.TT;M;FALSE;FALSE;TRUE;TRUE
+23;ecs_ind_order_book;Industry Survey: Assessment of Order-Book Levels - Balances, Seasonally Adjusted;SUR.M.I5.S.ECFIN.MAN002.TT;M;FALSE;FALSE;FALSE;TRUE
+24;ecs_ind_stocks;Industry Survey: Assessment of Stocks of Finished Products - Balances, Seasonally Adjusted;SUR.M.I5.S.ECFIN.MAN004.TT;M;FALSE;FALSE;FALSE;TRUE
+25;ecs_ind_prod_exp;Industry Survey: Production Expectations for the Months Ahead - Balances, Seasonally Adjusted;SUR.M.I5.S.ECFIN.MAN005.TT;M;FALSE;FALSE;TRUE;TRUE
+26;ecs_ind_prod_rec_m;Industry Survey: Production Trend Observed in Recent Months - Balances, Seasonally Adjusted;SUR.M.i5.S.ECFIN.MAN001.TT;M;FALSE;FALSE;FALSE;TRUE
+27;ecs_ind_x_orders;Industry Survey: Assessment of Export Order-Book Levels - Balances, Seasonally Adjusted;SUR.M.i5.S.ECFIN.MAN003.TT;M;FALSE;FALSE;TRUE;TRUE
+28;ecs_ind_empl_exp;Industry Survey: Employment Expectations for the Months Ahead - Balances, Seasonally Adjusted;SUR.M.I5.S.ECFIN.MAN007.TT;M;FALSE;FALSE;TRUE;TRUE
+29;ecs_cons_conf;Consumer Survey: Consumer Confidence Indicator - Balances, Seasonally Adjusted;SUR.M.i5.S.ECFIN.CNS099.TT;M;FALSE;FALSE;TRUE;TRUE
+30;ecs_cons_sit_over_next_12;Consumer Survey: General Economic Situation over Next 12 Months - Balances, Seasonally Adjusted;SUR.M.I5.S.ECFIN.CNS004.TT;M;FALSE;FALSE;FALSE;TRUE
+31;ecs_cons_exp_unempl;Consumer Survey: Unemployment Expectations over Next 12 Months - Balances, Seasonally Adjusted;SUR.M.i5.S.ECFIN.CNS007.TT;M;FALSE;FALSE;FALSE;TRUE
+32;ecs_cons_gen_last_12m;Consumer Survey: General Economic Situation over Last 12 Months - Balances, Seasonally Adjusted;SUR.M.i5.S.ECFIN.CNS003.TT;M;FALSE;FALSE;FALSE;TRUE
+33;ecs_cstr_conf;Construction Survey: Construction Confidence Indicator - Balances, Seasonally Adjusted;SUR.M.I5.S.ECFIN.CON099.TT;M;FALSE;FALSE;TRUE;TRUE
+34;ecs_cstr_order_books;Construction Survey: Assessment of Order Books - Balances, Seasonally Adjusted;SUR.M.I5.S.ECFIN.CON003.TT;M;FALSE;FALSE;FALSE;TRUE
+35;ecs_cstr_empl_exp;Construction Survey: Employment Expectations for the Months Ahead - Balances, Seasonally Adjusted;SUR.M.I5.S.ECFIN.CON004.TT;M;FALSE;FALSE;FALSE;TRUE
+36;ecs_cstr_prod_recent;Construction Survey: Trend of Activity Compared with Preceding Months - Balances, Seasonally Adjusted;SUR.M.i5.S.ECFIN.CON001.TT;M;FALSE;FALSE;FALSE;TRUE
+37;ecs_ret_tr_conf;Retail Trade Survey: Retail Confidence Indicator - Balances, Seasonally Adjusted;SUR.M.i5.S.ECFIN.RET099.TT;M;FALSE;FALSE;TRUE;TRUE
+38;ecs_ret_tr_bus_sit;Retail Trade Survey: Present Business Situation - Balances, Seasonally Adjusted;SUR.M.I5.S.ECFIN.RET001.TT;M;FALSE;FALSE;FALSE;TRUE
+39;ecs_ret_tr_stocks;Retail Trade Survey: Assessment of Stocks - Balances, Seasonally Adjusted;SUR.M.I5.S.ECFIN.RET002.TT;M;FALSE;FALSE;FALSE;TRUE
+40;ecs_ret_tr_exp_bus;Retail Trade Survey: Expected Business Situation;SUR.M.I5.S.ECFIN.RET004.TT;M;FALSE;FALSE;FALSE;TRUE
+41;ecs_ret_tr_empl;Retail Trade Survey: Employment Expectations;SUR.M.i5.S.ECFIN.RET005.TT;M;FALSE;FALSE;FALSE;TRUE
+42;ecs_serv_conf;Service Survey: Service Confidence Indicator;SUR.M.i5.S.ECFIN.SER099.TT;M;FALSE;FALSE;TRUE;TRUE
+43;ecs_serv_empl_exp;Service Survey: Evolution of Employment Expected in the Months Ahead;SUR.M.i5.S.ECFIN.SER005.TT;M;FALSE;FALSE;TRUE;TRUE
+44;pms_comp_output;"Composite; Output,";SUR.M.I5.S.NTC.COMOUT.TT;M;FALSE;FALSE;FALSE;TRUE
+45;pms_comp_empl;"Purchasing Managers Survey - Composite; Employment, Total, Seasonally Adjusted";SUR.M.i5.S.NTC.COMEMP.TT;M;FALSE;FALSE;FALSE;TRUE
+46;pms_pmi;Manufacturing - Purchasing Manager Index;SUR.M.i5.S.NTC.MANPMI.TT;M;FALSE;TRUE;TRUE;TRUE
+47;pms_manuf_empl;"Manufacturing; Employment, Total, Seasonally Adjusted";SUR.M.i5.S.NTC.MANEMP.TT;M;FALSE;FALSE;FALSE;TRUE
+48;pms_manuf_output;Manufacturing - Output;SUR.M.i5.S.NTC.MANOUT.TT;M;FALSE;FALSE;FALSE;TRUE
+49;pms_manuf_product;Manufacturing - Productivity;SUR.M.i5.S.NTC.MANPRD.TT;M;FALSE;FALSE;FALSE;TRUE
+50;pms_serv_out;"Services; Business Activity";SUR.M.i5.S.NTC.SEROUT.TT;M;FALSE;FALSE;TRUE;TRUE
+51;pms_serv_empl;"Services; Employment, Total, Seasonally Adjusted";SUR.M.i5.S.NTC.SEREMP.TT;M;FALSE;FALSE;FALSE;TRUE
+52;pms_serv_new_bus;Services - New Business;SUR.M.i5.S.NTC.SERNEW.TT;M;FALSE;FALSE;FALSE;TRUE
+53;pms_serv_product;Services - Productivity;SUR.M.i5.S.NTC.SERPRD.TT;M;FALSE;FALSE;FALSE;TRUE
+54;urx;Unemployment Rate, Total (all Ages), Total (Male & Female), Seasonally Adjusted, not Working Day Adjusted;sts.m.i5.S.UNEH.RTT000.4.000;M;FALSE;TRUE;TRUE;TRUE
+55;empl_total;"Index of Employment, Total Industry; Eurostat; Seasonally not Working Day Adjusted";sts.m.I5.S.EMPL.NS0010.4.000;M;TRUE;FALSE;TRUE;TRUE
+56;empl_tot_xc;"Index of Employment, Total Industry (Excluding Construction); Eurostat; Seasonally or Working Day Adjusted";sts.m.i5.S.EMPL.NS0020.4.000;M;TRUE;FALSE;FALSE;TRUE
+57;empl_cstr;"Index of Employment, Construction; Eurostat; Seasonally Adjusted, not Working Day Adjusted";sts.m.I5.S.EMPL.2F0000.4.000;M;TRUE;FALSE;FALSE;TRUE
+58;empl_manuf;"Index of Employment, Manufacturing; Eurostat; Seasonally Adjusted, not Working Day Adjusted";sts.m.I5.S.EMPL.2C0000.4.000;M;TRUE;FALSE;FALSE;TRUE
+59;extra_ea_trade_exp_val;Extra Euro Area 15 (Fixed Composition) Trade, Export, Value;TRD.M.i5.y.x.TTT.j5.4.val;M;TRUE;TRUE;TRUE;TRUE
+60;intra_ea_trade_exp_val;Intra Euro Area 15 (Fixed Composition) Trade, Export, Value;TRD.M.i5.y.x.TTT.i5.4.val;M;TRUE;FALSE;FALSE;TRUE
+61;extra_ea_trade_imp_val;Extra Euro Area 15 (Fixed Composition) Trade, Import, Value;TRD.M.i5.y.m.TTT.j5.4.val;M;TRUE;FALSE;TRUE;TRUE
+62;intra_ea_trade_imp_val;Intra Euro Area 15 (Fixed Composition) Trade, Import, Value;TRD.M.i5.y.m.TTT.i5.4.val;M;TRUE;FALSE;FALSE;TRUE
+63;us_ip;US, INDUST.PROD., TOTAL EXCL. CONSTRUCTION SA;BISM.M.SBBB.US.01;M;TRUE;FALSE;TRUE;TRUE
+64;us_urx;UNEMPLOYMENT RATE SA;BISM.M.UIHB.US.01;M;FALSE;FALSE;FALSE;TRUE
+65;us_empl;US, EMPLOYMENT, CIVILIAN SA;BISM.M.UDBB.US.01;M;TRUE;FALSE;FALSE;TRUE
+66;us_retail_sales;US, RETAIL TRADE, VALUE (NAICS DEF.), SA;BISM.M.TLBB.US.01;M;TRUE;FALSE;FALSE;TRUE
+67;us_ip_manuf_exp;US, PRODUCTION EXPECTATIONS in MANUF., ASSESSMENT BALANCE - IN P.C.  NSA;BISM.M.SKHA.US.51;M;FALSE;FALSE;TRUE;TRUE
+68;us_cons_exp;US, CONSUMER EXPECTATIONS INDEX NSA;BISM.M.TTNA.US.11;M;FALSE;FALSE;TRUE;TRUE
+69;us_r3_m;US, INT.RATE, MONEY-MKT, TREAS.BILLS, 3-MONTH, MKT YIELD, D & M-AV;"$eval_opt(""convert(BISM.d.HEPA.US.02,m,discr,ave)"",""convert automatic off"")";M;FALSE;FALSE;FALSE;TRUE
+70;us_r10_year;US, YIELD, SECOND.MKT, US TREASURY NOTES & BONDS, 10 YEARS, D & M-AV;"$eval_opt(""convert(BISM.d.HGLA.US.32,m,discr,ave)"",""convert automatic off"")";M;FALSE;FALSE;FALSE;TRUE
+71;m3;Index of Notional Stocks M3 - Seasonally Adjusted;bsi.m.u2.Y.V.M30.X.i.U2.2300.Z01.e;M;TRUE;FALSE;TRUE;TRUE
+72;loans;Index of Loans - Seasonally Adjusted;bsi.m.u2.y.u.a20.a.1.u2.2200.z01.e;M;TRUE;FALSE;TRUE;TRUE
+73;ir_long;10-Year Govt. Bonds;"$eval_opt(""convert(DD.d.u2.IR_L.AVG.4F5B,m,discr,ave)"",""convert automatic off"")";M;FALSE;FALSE;TRUE;TRUE
+74;ir_short;Reuters.Money market.Euro.Euribor 360.3 months.Last;FM.M.U2.EUR.RT.MM.EURIBOR3MD_.HSTA;M;FALSE;FALSE;TRUE;TRUE
+75;ir_1_year;1-Year EURIBOR RATE;FM.M.U2.EUR.RT.MM.EURIBOR1YD_.HSTA;M;FALSE;FALSE;FALSE;TRUE
+76;ir_2_year;YIELD, SECOND MKT, GOVT BONDS, 2 YEARS (MU12), D,M-AV;"$eval_opt(""convert(bism.d.hgea.xm.16,m,discr,ave)"",""convert automatic off"")";M;FALSE;FALSE;FALSE;TRUE
+77;ir_5_year;YIELD, SECOND MKT, GOVT BONDS, 5 YEARS (MU12), D, M-AV;"$eval_opt(""convert(bism.d.hgea.xm.22,m,discr,ave)"",""convert automatic off"")";M;FALSE;FALSE;FALSE;TRUE
+78;eer;ECB Nominal Effective Exch. Rate, ECB EER Core Group of Currencies Against Euro;"$eval_opt(""convert(exr.d.z08.eur.en00.a,m,discr,ave)"",""convert automatic off"")";M;FALSE;FALSE;TRUE;TRUE
+79;eer_cpi;ECB Real Effective Exch. Rate CPI Deflated, ECB EER Core Group of Currencies Against Euro;exr.m.z08.eur.erc0.a;M;FALSE;FALSE;FALSE;TRUE
+80;eer_ppi;ECB Real Effective Exch. Rate Producer Prices Deflated, ECB EER Core Group of Currencies Against Euro;exr.m.z08.eur.erp0.a;M;FALSE;FALSE;FALSE;TRUE
+81;exr_usd;EXCH.RATE: US DOLLARS/1 EUR,SPOT at 2:15 PM (CET)D& W,M,Q-AV;"$eval_opt(""convert(bism.d.qkba.us.02,m,discr,ave)"",""convert automatic off"")";M;FALSE;FALSE;TRUE;TRUE
+82;exr_gbp;EXCH.RATE: GB POUNDS/1 EUR,SPOT at 2:15 PM(CET)D & W,M,Q-AV;"$eval_opt(""convert(bism.d.qkba.gb.02,m,discr,ave)"",""convert automatic off"")";M;FALSE;FALSE;FALSE;TRUE
+83;rxr_yen;EXCH.RATE: JP YEN/1 EUR,SPOT at 2:15 PM (CET)D & W,M,Q-AV;"$eval_opt(""convert(bism.d.qkba.jp.02,m,discr,ave)"",""convert automatic off"")";M;FALSE;FALSE;FALSE;TRUE
+84;euro50;Dow Jones Euro Stoxx 50 Price Index - Historical Close;"$eval_opt(""convert(FM.B.U2.EUR.DS.EI.DJES50I.HST,m,discr,ave)"",""convert automatic off"")";M;TRUE;FALSE;FALSE;TRUE
+85;euro325;Dow Jones Euro Stoxx Price Index - Historical Close;"$eval_opt(""convert(FM.B.U2.EUR.DS.EI.DJEURST.HST,m,discr,ave)"",""convert automatic off"")";M;TRUE;TRUE;TRUE;TRUE
+86;sp500;S&P 500 COMPOSITE - PRICE INDEX;"$eval_opt(""convert(FM.B.US.USD.DS.EI.S_PCOMP.HST,m,discr,ave)"",""convert automatic off"")";M;TRUE;FALSE;FALSE;TRUE
+87;dow_j;US, STOCK-EXCH. PRICES, DOW JONES, INDUSTRIAL AVERAGE, D, M-AV NSA;"$eval_opt(""convert(BISM.d.ESNA.US.06,m,discr,ave)"",""convert automatic off"")";M;TRUE;FALSE;TRUE;TRUE
+88;raw_mat_en;World Market Prices of Raw Materials in Euro. Index Total, Excluding Energy. HWWA;"$eval_opt(""convert(rmp.d.i2.0200.e,m,discr,ave)"",""convert automatic off"")";M;TRUE;FALSE;TRUE;TRUE
+89;raw_mat_oil;WORLD-MKT PRICES, ENERGY RAW MAT., CRUDE OIL, USD-BASIS - HWWA;bism.m.vuka.xw.11;M;TRUE;FALSE;FALSE;TRUE
+90;raw_mat_gold;GOLD PRICE, US DOLLARS/FINE OUNCE,LONDON FIXING,A.M. D&W,M,Q-AV;"$eval_opt(""convert(bism.d.qzba.xa.02,m,discr,ave)"",""convert automatic off"")";M;TRUE;FALSE;FALSE;TRUE
+91;raw_mat_oil_fwd;Oil Price, Brent Crude -1 Month Forward;"$eval_opt(""convert(DD.b.Z5.POILBRENT.LEV.DS ,m,discr,ave)"",""convert automatic off"")";M;TRUE;FALSE;TRUE;TRUE
+92;raw_mat;World Market Prices of Raw Materials, Index Total , Euro;"$eval_opt(""convert(rmp.d.i2.0100.e,m,discr,ave)"",""convert automatic off"")";M;TRUE;TRUE;FALSE;TRUE
+93;gdp;Gross Domestic Product at Market Price - Constant Prices - National Currency (Euro) - Adjustment by;ESA.Q.i5.S.0000.B1QG00.1000.TTTT.L.U.A;Q;TRUE;TRUE;TRUE;TRUE
+94;priv_cons;Final Consumption of Households and NPISH's (Private Consumption) - Constant Prices - ECU/Euro - Mixed Method of Adjustment;ESA.Q.i5.S.1415.P31000.0000.TTTT.L.U.A;Q;TRUE;FALSE;TRUE;TRUE
+95;invest;Gross Fixed Capital Formation - Constant Prices - ECU/Euro - Mixed Method of Adjustment;ESA.Q.i5.S.1000.P51000.0000.TTTT.L.U.A;Q;TRUE;FALSE;TRUE;TRUE
+96;export;Exports of Goods and Services - Constant Prices - ECU/Euro - Mixed Method of Adjustment;ESA.Q.i5.S.2000.P60000.0000.TTTT.L.U.A;Q;TRUE;FALSE;TRUE;TRUE
+97;import;Imports of Goods and Services - Constant Prices - ECU/Euro - Mixed Method of Adjustment;ESA.Q.i5.S.0000.P70000.2000.TTTT.L.U.A;Q;TRUE;FALSE;TRUE;TRUE
+98;empl;Total Employment, Domestic - Non Monetary - Persons - Seasonally and Partly Working Day Adjusted, Mixed Method of Adjustment;ESA.Q.i5.S.1000.TOTEMP.0000.TTTT.N.P.A;Q;TRUE;TRUE;TRUE;TRUE
+99;prductivity;Labour Productivity - Total - Index;ESA.Q.I5.S.0000.LABPRO.1000.TTTT.Q.U.I;Q;FALSE;FALSE;TRUE;TRUE
+100;capacity;"Industry Survey: Current Level of Capacity Utilization; DG-ECFIN Code: VAL.EA.TOTA.13.QPS.Q - Percentage Balances";SUR.Q.i5.S.ECFIN.MAN013.TT;Q;FALSE;TRUE;TRUE;TRUE
+101;gdp_us;United States - GDP, at MARKET PRICES - CHAINED 2000 USD SAAR;BISM.Q.RHGB.US.01;Q;TRUE;TRUE;TRUE;TRUE
