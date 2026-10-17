@@ -1,6 +1,8 @@
 # DFM
 Estimate a Dynamic Factor Model Use DFM (dfms) With (In) R Software
 
+https://www.youtube.com/watch?v=65Y8sciJAvE
+
 Olah Data Semarang
 
 WA: +6285227746673 (085227746673)
